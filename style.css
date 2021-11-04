@@ -1,0 +1,51 @@
+  <style>
+  #container{}
+  body { 
+    background-color: lightyellow; 
+  }
+
+  h1 {
+    text-align: center;
+    color: #D1C4FB;
+    vertical-align: baseline;
+    margin-top: 28%;
+    font-family: garamond;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+  }
+  p {
+    text-align: center;
+    color: #D1C4FB;
+    font-family: garamond;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+
+  }
+  .countup {
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: middle;
+
+  }
+  .countup .timeel {
+    display: inline-block;
+    padding: 10px;
+    background: #DD9934;
+    margin: 0;
+    color: #FEDBD8;
+    min-width: 2.6rem;
+    margin-left: 13px;
+    border-radius: 10px 0 0 10px;
+  }
+  .countup span[class*="timeRef"] {
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+    background: #FEDBD8;
+    color: #DD9934;
+  }
+  </style>
