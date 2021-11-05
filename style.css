@@ -1,8 +1,15 @@
   <style>
   #container{}
   body { 
-    background-color: lightyellow; 
+    background-color: floralwhite; 
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
   }
+
+
 
   h1 {
     text-align: center;
@@ -10,7 +17,7 @@
     vertical-align: baseline;
     margin-top: 28%;
     font-family: garamond;
-    font-size: 30px;
+    font-size: 3em;
     font-weight: bold;
 
     
@@ -19,30 +26,29 @@
     text-align: center;
     color: #D1C4FB;
     font-family: garamond;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
-
-
-
 
   }
   .countup {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     vertical-align: middle;
 
   }
   .countup .timeel {
     display: inline-block;
+    font-size: 2em;
     padding: 10px;
     background: #DD9934;
     margin: 0;
     color: #FEDBD8;
-    min-width: 2.6rem;
+    min-width: 3.6rem;
     margin-left: 13px;
     border-radius: 10px 0 0 10px;
   }
   .countup span[class*="timeRef"] {
+    font-size: 2em;
     border-radius: 0 10px 10px 0;
     margin-left: 0;
     background: #FEDBD8;
